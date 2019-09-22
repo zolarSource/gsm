@@ -1,0 +1,20 @@
+.stock{
+    margin-bottom: 13vh;
+    &__wrapper{
+        padding: 20vh 0;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 7vh;
+        
+        h2{
+            color: #2e5f88;
+            font-size: 48px;
+        
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}

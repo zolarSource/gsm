@@ -1,0 +1,131 @@
+.work-princip{
+    position: relative;
+    background-image: url('../img/work-princip/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__mask{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.45;
+        z-index: 1;
+    }
+
+    &__wrapper{
+        position: inherit;
+        padding: 10vh 0;
+        z-index: 2;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 7vh;
+        
+        h2{
+            color: #fff;
+            font-size: 48px;
+        
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+
+    &__item{
+        &__count{
+            text-align: center;
+            
+            h3{
+                font-size: 40px;
+                color: #fff;
+
+                span{
+                    font-weight: 700;
+                }
+            }
+        }
+
+        &__case{
+            margin: 0 auto 14vh auto;
+            text-align: center;
+            border: 5px solid #fff;
+            max-width: 52vh;      
+
+            .item__case__wrapper{
+                padding: 2vh;
+                color: #fff;
+        
+                & > h5, h6{
+                    font-size: 24px;
+                }
+            }
+
+            h5{
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin: 0; 
+            }
+
+            p{
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+
+        &__arrow{
+            position: absolute;
+
+            .arrow__line{
+                transform: translateY(-6px);
+                border-top: .2rem dashed #fff;
+                display: inline-block;
+                width: 5rem;
+            }
+
+            .arrow__end{
+                position: absolute;
+                width: 0;
+                height: 0;
+                border: 0 solid transparent;
+                border-bottom-width: 10px;
+                border-top-width: 10px;
+                border-left: 10px solid #fff;
+            }
+        }
+
+        &__actions{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+            .work-princip__actions__item{
+                border: 5px solid #fff; 
+            }
+            .work-princip__actions__item:not(:last-child, :nth-child(2)){
+                margin-right: 2vh;
+            }
+
+            .actions__item__wrapper{
+                padding: 1vh;
+            }
+
+            .actions__item{
+                &__text{
+                    color: #fff;
+                    line-height: 22px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    &__steps__item:not(:last-child){
+        margin-bottom: 5vh;
+    }
+}

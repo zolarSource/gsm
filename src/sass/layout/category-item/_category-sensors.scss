@@ -1,0 +1,92 @@
+.category-sensors{
+    min-height: calc(81.8vh - (168px+184px));
+    background-color: #F2F2F2;
+
+    &__wrapper{
+        padding: 4em 0;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 3em;
+        
+        h2{
+            color: $blue;
+            font-size: 36px;
+            line-height: 43px;
+            font-weight: 500;
+        }
+    }
+
+    &__row__wrapper{
+        background-color: #fff;
+    }
+
+    &__row{
+        padding: 1em 0;
+    }
+
+    &__item{
+        text-align: center;
+        max-width: 15em;
+        min-height: 17em;
+
+        &__img{
+            max-height: 11em;
+
+            img{
+                max-height: 11em;
+            }
+        }
+
+        &__title{
+            font-size: 18px;
+            color: #2E5F88;
+            line-height: 20px;
+            margin-bottom: 1em;
+        }
+
+        &__info{
+            &-btn{
+                margin-left: auto;
+                border-radius: 50px;
+                background-color: #CC4452;
+                max-width: 11em;
+                height: 2.3em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translateX(-7%);
+
+                a{
+                    color: #fff;
+
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            & p:first-child{
+                font-size: 14px;
+                color: #7F7F7F;
+            }
+
+            & p:nth-child(2){
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 36px;
+                
+                span{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+
+    &__item:not(:first-child){
+        border-left: 1px solid #E5E5E5;
+    }
+}

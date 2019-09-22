@@ -1,0 +1,171 @@
+// media 992px
+@media screen and (max-width: 992px){   
+    .complect__item__text span{
+        display: none!important;
+    }
+
+    .header__main__item:nth-child(3){
+        .header__main__item-arrow:nth-child(2){
+            right: 10%!important;
+        }
+    }
+
+    .header__main__item:nth-child(4){
+        .header__main__item-arrow:nth-child(2){
+            right: -20%!important;
+        }
+    }
+
+    .catalog-item-elements__img:first-child{
+        .catalog-item-elements__img__arrow:first-child{
+            bottom: 34%!important;
+            left: 23%!important;
+        }
+
+        .catalog-item-elements__img__arrow:nth-child(2){
+            bottom: 23%!important;
+            left: 59%!important;
+        }
+        
+        .catalog-item-elements__img__arrow:nth-child(3){
+            bottom: 23%!important;
+            right: 22%!important;
+        }
+
+        .catalog-item-elements__img__arrow:nth-child(4){
+            bottom: 23%!important;
+            right: 15%!important;
+        }
+    }
+
+    .catalog-item-elements__img:nth-child(2){
+        .catalog-item-elements__img__arrow:first-child{
+            bottom: 40%!important;
+            left: 17%!important;
+        }
+
+        .catalog-item-elements__img__arrow:nth-child(2){
+            bottom: 35%!important;
+            left: 42%!important;
+        }
+        
+        .catalog-item-elements__img__arrow:nth-child(3){
+            top: 20%!important;
+            left: 34%!important;
+        }
+
+        .catalog-item-elements__img__arrow:nth-child(4){
+            bottom: 16%!important;
+            left: 55%!important;
+        }
+    }
+}
+
+// media 767px
+@media screen and (max-width: 767px){    
+    .header__main__title h2{
+        font-size: 43px;
+        line-height: 46px;
+    }
+
+    .header__main__item:nth-child(3){
+        margin-bottom: 3em;
+    }
+
+    .header__main__item:nth-child(4){
+        .header__main__item-arrow:nth-child(2){
+            right: 29%!important;
+            bottom: -2%!important;
+        }
+    }
+    
+    .catalog-item__features__item:first-child,
+    .catalog-item__features__item:nth-child(2){
+        margin-bottom: 1em;
+    }
+
+    .catalog-item__features__item:nth-child(3){
+        border: none;
+    }
+
+    .catalog-item-elements__notes__item ul li{
+        font-size: 21px;
+        line-height: 25px;
+    }
+    
+    .header__complect__item_left:last-child{
+        top: 80%!important;
+        left: 9%!important;
+    }
+
+    .catalog-item-qualities__item:nth-child(odd){
+        .catalog-item-qualities__item__text{
+            margin-bottom: 1em;
+        }
+    }
+
+    .catalog-item-qualities__item:nth-child(even){
+        .catalog-item-qualities__item__text{
+            margin-bottom: 1em;
+        }
+    }
+
+    .catalog-item-qualities__item__img{
+        margin-bottom: 1em;
+    }
+}
+
+// media 575px
+@media screen and (max-width: 575px){    
+    .header__main__price{
+        margin-right: auto;
+        margin-left: 1em;
+    }
+    .catalog-item__features__item:not(:last-child){
+        margin-bottom: 1em!important;
+    }
+
+   .catalog-item-elements__img{
+       margin-bottom: 2em;
+   }
+}
+
+
+// media 448px
+@media screen and (max-width: 448px){    
+    .header__main__item:nth-child(3){
+        .header__main__item-arrow:nth-child(2){
+            right: -3%!important;
+        }
+    }
+
+    .catalog-item-specifications__item__title p,
+    .catalog-item-specifications__item__content p{
+        font-size: 18px;
+    }
+
+    .catalog-item-elements__title h2{
+        font-size: 33px;
+    }
+}
+
+// media 408px
+@media screen and (max-width: 408px){    
+    .catalog-item-elements__notes__item ul li{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .catalog-item-qualities__item__title p,
+    .catalog-item-qualities__item__text p{
+        font-size: 22px;
+        line-height: 24px;
+    }
+}
+
+// media 388px
+@media screen and (max-width: 408px){    
+    .catalog-item-specifications__title h2{
+        font-size: 40px;
+    }
+}

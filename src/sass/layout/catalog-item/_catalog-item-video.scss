@@ -1,0 +1,27 @@
+.catalog-item-video{
+    background-color: $blue;
+
+    &__wrapper{
+        padding: 6em 0;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 3em;
+        
+        h2{
+            color: #fff;
+            font-size: 48px;
+            font-weight: 400;
+
+            span{
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__video{
+        border: 25px solid #fff;
+        box-shadow: 4px 2px 7px rgba(0,0,0,.3);
+    }
+}

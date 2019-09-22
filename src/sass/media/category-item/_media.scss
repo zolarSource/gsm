@@ -1,0 +1,38 @@
+// media 992px
+@media all and (max-width: 992px){
+    .menu-desktop{
+        display: none;
+    }
+}
+
+// media 768px
+@media all and (max-width: 768px){
+    .category-sensors__item:first-child,
+    .category-sensors__item:nth-child(2){
+        margin-bottom: 1em; 
+    }
+
+    .category-sensors__item:nth-child(3){
+        border: none;
+    }
+}
+
+// media 497px
+@media all and (max-width: 497px){
+    .category-sensors__item{
+        border: none!important; 
+    }
+
+    .menu-desktop__info__tel p:before{
+        left: -7%;
+    }
+}
+
+// media 367px
+@media all and (max-width: 367px){
+    .menu-desktop__info__tel{
+        p{
+            font-size: 17px;
+        }
+    }
+}

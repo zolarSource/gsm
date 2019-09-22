@@ -1,0 +1,99 @@
+.header{
+    margin-bottom: 2em;
+    
+    &__main{
+        &__title{
+            margin-bottom: 2em;
+            h2{
+                color: $blue;
+                font-size: 55px;
+                line-height: 66px;
+                font-weight: 300;
+            }
+
+            span{
+                font-weight: 500;
+            }
+
+            & .header__main__price{
+                display: block;
+                width: 127px;
+                height: 127px;
+                border-style: solid;
+                border-width: 3px;
+                border-color: #CC4452;
+                background-color: #CC4452;
+                border-radius: 50%;
+                color: #fff;
+                transform: rotate(25deg);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                p:nth-child(2){
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+            }
+        }
+
+        &__item{
+            position: relative;
+            &-arrow{
+                position: absolute;
+
+                p{
+                    color: #CC4452;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                span{
+                    display: block;
+                    height: 0.1em;
+                    background-color: $pink;
+                }
+            }
+        }
+
+        .header__complect__item_left,
+        .header__complect__item_right{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .complect__item__text{
+                max-width: 11em;
+                text-align: center;
+                color: $pink;
+    
+                span{
+                    
+                }
+            }
+        }
+
+        .header__complect__item_left{
+            left: 6%;
+
+            .complect__item__text{
+                span{
+                    transform-origin: right;
+                }
+            }
+        }
+
+        .header__complect__item_right{
+            right: 6%;
+
+            .complect__item__text{
+                span{
+                    transform-origin: left;
+                }
+            }
+        }
+    }
+}

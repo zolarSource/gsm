@@ -1,0 +1,110 @@
+.menu-desktop{
+    background-color: #2E5F88;
+
+    &__logo{
+        max-width: 7.2em;
+        max-height: 8em;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 13px rgba(0,0,0,0.25), 0px 0px 13px rgba(0,0,0,0.25);
+
+       img{
+            max-width: 5em;
+            max-height: 6.5em;   
+        }
+    }
+
+    &__links{
+        display: flex;
+        justify-content: space-around;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        
+        a{
+            color: #fff;
+        }
+
+        ul{
+            padding: 0 1em;
+            margin: 0;
+
+            li{
+                a{
+                    color: #BFBFBF;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    &__info{
+        &__schedule{
+            margin-bottom: 0.2em!important;
+            display: flex;
+    
+            color: #FFFFFF;
+            font-size: 16px;
+            line-height: 19px;
+    
+            span{
+                font-size: 10px;
+    
+                &:after{
+                    content: '';
+                    display: block;
+    
+                    width: 9px;
+                    height: 1px;
+    
+                    background-color: #fff;
+    
+                    transform: translateY(-4px);
+    
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        &__tel{
+            margin-bottom: 0.5em;
+
+            p{
+                font-size: 18px;
+                color: #FFFFFF;
+                line-height: 20px;
+                position: relative;
+
+                &:before{
+                    content: '+';
+                    position: absolute;
+                    left: -5%;
+                    color: #D8D8D8;
+                }
+
+                span{
+                    color: #D8D8D8;
+                }
+            }
+        }
+
+        &__btn{
+            margin-right: auto;
+            border-radius: 50px;
+            background-color: #FFFFFF;
+
+            max-width: 11em;
+            height: 26%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(-7%);
+        }
+    }
+}

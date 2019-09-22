@@ -1,0 +1,45 @@
+// defaults
+@import 'base/defaults';
+
+// abstracts
+@import 'abstracts/variables';
+
+// vendors
+@import 'vendors/bootstrap';
+
+// base
+@import 'base/normalize';
+@import 'base/media';
+
+// layout
+@import 'layout/index/header';
+@import 'layout/index/installing';
+@import 'layout/index/common-reasons';
+@import 'layout/index/catalog';
+@import 'layout/index/additional-sensors';
+@import 'layout/index/comments';
+@import 'layout/index/guarantee';
+@import 'layout/index/stock';
+@import 'layout/index/work-princip';
+@import 'layout/index/our-work';
+@import 'layout/index/footer';
+
+@import 'layout/catalog-item/header';
+@import 'layout/catalog-item/catalog-item__features';
+@import 'layout/catalog-item/catalog-item-specifications';
+@import 'layout/catalog-item/catalog-item-elements';
+@import 'layout/catalog-item/catalog-item-video';
+@import 'layout/catalog-item/catalog-item-qualities';
+@import 'media/catalog-item/media';
+
+@import 'layout/category-item/menu-desktop';
+@import 'layout/category-item/category-sensors';
+@import 'media/category-item/media';
+
+// components
+@import 'components/top-menu-desktop';
+@import 'components/top-menu-mobile';
+@import 'components/img__left';
+
+// media
+@import 'media/index//media';

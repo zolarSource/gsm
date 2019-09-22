@@ -1,0 +1,53 @@
+.comments{
+	&__wrapper{
+		margin: 6.2em 0;
+	}
+
+	&__title{
+		text-align: center;
+		color: $blue;
+		margin-bottom: 1.8em;
+
+		h2{
+			font-size: 48px;
+			line-height: 35px;
+		}
+		span{
+			font-weight: 900;
+		}
+	}
+
+	&__item{
+		margin-bottom: 2em; 
+		&__rate{
+			width: 100%;
+			max-width: 135px;
+			margin-bottom: 0.5em;
+		}
+
+		&__author{
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		&__text{
+			line-height: 17px;
+			margin-bottom: 1em;
+		}
+
+		&__images{
+			.comments__images__item{
+				max-width: 228px;
+
+				img{
+					width: 100%;
+					max-height: 190px;
+				}
+			}
+
+			.comments__images__item:not(:last-child){
+				margin-right: 5px;
+			}
+		}
+	}	
+}

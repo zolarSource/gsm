@@ -1,0 +1,48 @@
+.catalog-item-specifications{
+    background-color: #F2F2F2;
+    
+    &__wrapper{
+        padding: 1em 0;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 3em;
+        
+        h2{
+            color: $blue;
+            font-size: 48px;
+            font-weight: 400;
+
+            span{
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__item{
+        &__title{
+            p{
+                color: #02449D;
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+
+        &__content{
+            p{
+                color: #C1272D;
+                font-size: 22px;
+                line-height: 24px;
+            }
+        }
+
+        &__wrapper{
+            padding: 0.5em;
+        }
+    }
+
+    &__item:nth-child(odd){
+        background-color: #fff;
+    }
+}
